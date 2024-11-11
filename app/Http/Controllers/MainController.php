@@ -17,4 +17,8 @@ class MainController extends Controller
         ];
         return view('home', $data);
     }
+    public function submitForm() : void
+    {
+        echo 'formulário submetido';
+    }
 }
